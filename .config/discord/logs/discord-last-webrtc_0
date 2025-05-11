@@ -1,0 +1,650 @@
+[2025-05-12 04:50:27.351] [36532] (engine.cpp:528): Created native engine, time: Mon May 12 04:50:27 2025 KST, logPath: /home/ttg/.config/discord/logs/, logLevel: 2
+[2025-05-12 04:50:27.351] [36532] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-05-12 04:50:27.351] [36532] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-05-12 04:50:27.351] [36532] (audio_processing_impl.cc:461): Injected APM submodules:
+Echo control factory: 1
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2025-05-12 04:50:27.351] [36532] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:50:27.352] [36532] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2025-05-12 04:50:27.352] [36532] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2025-05-12 04:50:27.352] [36532] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:153): current platform is Linux
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:945): PlatformAudioLayer
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:253): PulseAudio support is enabled.
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:300): AttachAudioBuffer
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:310): ActiveAudioLayer
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:153): current platform is Linux
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:945): PlatformAudioLayer
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:253): PulseAudio support is enabled.
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:300): AttachAudioBuffer
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2025-05-12 04:50:27.353] [36532] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2025-05-12 04:50:27.353] [36532] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-05-12 04:50:27.353] [36532] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-05-12 04:50:27.353] [36532] (audio_processing_impl.cc:461): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2025-05-12 04:50:27.353] [36532] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:50:27.353] [36532] (audio_engine.cpp:552): Creating audio engine: standard
+[2025-05-12 04:50:27.353] [36532] (audio_device_impl.cc:320): Init
+[2025-05-12 04:50:32.567] [36512] JS console: [GatewaySocket] [FAST CONNECT] successfully took over websocket, state:
+[2025-05-12 04:50:32.567] [36512] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 0 ms
+[2025-05-12 04:50:33.491] [36512] JS console: [GatewaySocket] [READY] took 923ms, as b11a5567539bcc9649e9f7f829c8f132
+[2025-05-12 04:50:33.957] [36512] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1390ms
+[2025-05-12 04:50:37.844] [36512] JS console: [RTCControlSocket(default)] [CONNECT] wss://south-korea1117.discord.media:443/
+[2025-05-12 04:50:37.845] [36512] JS console: [RTCConnection(1234126544407105617, default)] Connecting to RTC server wss://south-korea1117.discord.media:443/, rtc-connection-id: b3906b6b-e3a0-43a3-b757-28bf2ff9d3c1, channel: 1234126544407105621(2)
+[2025-05-12 04:50:37.845] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC connection state: AWAITING_ENDPOINT => CONNECTING
+[2025-05-12 04:50:37.920] [36512] JS console: [RTCConnection(1234126544407105617, default)] Connected to RTC server.
+[2025-05-12 04:50:37.921] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC connection state: CONNECTING => AUTHENTICATING
+[2025-05-12 04:50:37.922] [36512] JS console: [RTCControlSocket(default)] [CONNECTED] wss://south-korea1117.discord.media:443/ in 77 ms
+[2025-05-12 04:50:37.930] [36512] JS console: [RTCControlSocket(default)] [HELLO] heartbeat interval: 13750, version: 8, took 85 ms
+[2025-05-12 04:50:37.930] [36512] JS console: [RTCControlSocket(default)] Starting heartbeat with interval: 13750
+[2025-05-12 04:50:37.945] [36512] JS console: [RTCControlSocket(default)] [READY] took 99 ms
+[2025-05-12 04:50:37.945] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC connection state: AUTHENTICATING => RTC_CONNECTING
+[2025-05-12 04:50:37.948] [36512] JS console: [Connection(default)] Creating connection to 66.22.229.103:50001 with audio ssrc: 646857
+[2025-05-12 04:50:51.680] [36512] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2025-05-12 04:50:51.688] [36512] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-05-12 04:50:57.385] [36532] (audio_device_pulse_linux.cc:1629): failed to connect to PulseAudio sound server
+[2025-05-12 04:50:57.385] [36532] (audio_device_pulse_linux.cc:145): failed to initialize PulseAudio
+[2025-05-12 04:50:57.385] [36532] (audio_device_impl.cc:329): Audio device initialization failed.
+[2025-05-12 04:50:57.385] [36532] (audio_device_impl.cc:320): Init
+[2025-05-12 04:51:00.369] [36512] JS console: [RTCConnection(1234126544407105617, default)] Destroy RTCConnection
+[2025-05-12 04:51:00.369] [36512] JS console: [RTCControlSocket(default)] CLOSE
+[2025-05-12 04:51:00.370] [36512] JS console: [RTCConnection(1234126544407105617, default)] Disconnected from RTC server, clean: true, code: 1000, reason: Force Close, state: RTC_CONNECTING
+[2025-05-12 04:51:00.371] [36512] JS console: [Connection(default)] Connection state change: CONNECTING => DISCONNECTED
+[2025-05-12 04:51:00.371] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC media connection state change: RTC_CONNECTING => DISCONNECTED
+[2025-05-12 04:51:00.371] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC connection state: RTC_CONNECTING => RTC_DISCONNECTED
+[2025-05-12 04:51:00.371] [36512] JS console: [RTCControlSocket(default)] CLOSE
+[2025-05-12 04:51:00.372] [36512] JS console: [RTCConnection(1234126544407105617, default)] Disconnected from RTC server, clean: true, code: 1000, reason: Force Close, state: RTC_DISCONNECTED
+[2025-05-12 04:51:00.372] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC connection state: RTC_DISCONNECTED => DISCONNECTED
+[2025-05-12 04:51:00.372] [36512] JS console: [RTCControlSocket(default)] [CONNECT] wss://south-korea1117.discord.media:443/
+[2025-05-12 04:51:00.372] [36512] JS console: [RTCConnection(1234126544407105617, default)] Connecting to RTC server wss://south-korea1117.discord.media:443/, rtc-connection-id: b3906b6b-e3a0-43a3-b757-28bf2ff9d3c1, channel: 1234126544407105621(2)
+[2025-05-12 04:51:00.372] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC connection state: DISCONNECTED => CONNECTING
+[2025-05-12 04:51:00.372] [36512] JS console: [Connection(default)] Connection state change: DISCONNECTED => DISCONNECTED
+[2025-05-12 04:51:00.372] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC media connection state change: CONNECTING => DISCONNECTED
+[2025-05-12 04:51:00.373] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC connection state: CONNECTING => RTC_DISCONNECTED
+[2025-05-12 04:51:00.373] [36512] JS console: [RTCConnection(1234126544407105617, default)] RTC connection state: RTC_DISCONNECTED => DISCONNECTED
+[2025-05-12 04:51:00.501] [36512] JS console: [RTCControlSocket(default)] [CONNECTED] wss://south-korea1117.discord.media:443/ in 129 ms
+[2025-05-12 04:51:00.504] [36512] JS console: [RTCControlSocket(default)] [HELLO] heartbeat interval: 13750, version: 8, took 132 ms
+[2025-05-12 04:51:00.504] [36512] JS console: [RTCControlSocket(default)] Starting heartbeat with interval: 13750
+[2025-05-12 04:51:14.254] [36512] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: -1
+[2025-05-12 04:51:14.264] [36512] JS console: [RTCControlSocket(default)] [WS CLOSED] (clean: true, code: 4003, reason: Not authenticated.) retrying in 2.58 seconds.
+[2025-05-12 04:51:16.844] [36512] JS console: [RTCControlSocket(default)] [RECONNECT] wasClean=true code=4003 reason=Not authenticated.
+[2025-05-12 04:51:16.844] [36512] JS console: [RTCControlSocket(default)] [CONNECT] wss://south-korea1117.discord.media:443/
+[2025-05-12 04:51:16.883] [36512] JS console: [RTCControlSocket(default)] [DISCONNECT] (false, 4801, Cannot resume connection.)
+[2025-05-12 04:51:16.883] [36512] JS console: [RTCControlSocket(default)] [CONNECTED] wss://south-korea1117.discord.media:443/ in 39 ms
+[2025-05-12 04:51:27.388] [36532] (audio_device_pulse_linux.cc:1629): failed to connect to PulseAudio sound server
+[2025-05-12 04:51:27.388] [36532] (audio_device_pulse_linux.cc:145): failed to initialize PulseAudio
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:329): Audio device initialization failed.
+[2025-05-12 04:51:27.388] [36532] (audio_coding.cpp:158): Using software Opus decoder
+[2025-05-12 04:51:27.388] [36532] (audio_coding.cpp:175): Using software Opus encoder
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:851): RegisterAudioCallback
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:503): SetMicrophoneVolume(100)
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:851): RegisterAudioCallback
+[2025-05-12 04:51:27.388] [36532] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-12 04:51:27.388] [36532] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:580): SetStereoPlayout(0)
+[2025-05-12 04:51:27.388] [36532] (audio_device_impl.cc:867): BuiltInAECIsAvailable
+[2025-05-12 04:51:27.388] [36532] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:51:27.388] [36532] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2025-05-12 04:51:27.388] [36532] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2025-05-12 04:51:27.388] [36532] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:51:27.388] [36532] (clipping_predictor.cc:358): [AGC2] Clipping prediction disabled.
+[2025-05-12 04:51:27.388] [36532] (agc_manager_direct.cc:481): [agc] analog controller enabled: yes
+[2025-05-12 04:51:27.388] [36532] (agc_manager_direct.cc:484): [agc] Min mic level: 12 (overridden: no)
+[2025-05-12 04:51:27.389] [36532] (captured_audio_processor.cpp:157): SetNoiseCancellation: 0
+[2025-05-12 04:51:27.389] [36532] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:51:27.389] [36532] (field_trial.cc:164): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetDeviceChangeCallback' queued for 60031.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetVideoInputInitializationCallback' queued for 60031.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetAudioInputInitializationCallback' queued for 60031.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetDuckingPreference' queued for 60031.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetIdleJitterBufferFlush' queued for 60031.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetNativeScreenSharePickerCallbacks' queued for 60031.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetAudioDeviceModuleErrorCallback' queued for 60031.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetVideoCodecErrorCallback' queued for 60031.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetAudioSubsystem' queued for 60031.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetLoopbackPlaybackGainMultiplier' queued for 60031.6ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetVoiceFiltersFailedCallback' queued for 60031.6ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetRecordingDevices' queued for 59958.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetPlayoutDevices' queued for 59958.7ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetVideoInputDevices' queued for 59958.7ms
+[2025-05-12 04:51:27.389] [36532] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-12 04:51:27.389] [36532] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetRecordingDevice' queued for 59958.1ms
+[2025-05-12 04:51:27.389] [36532] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:580): SetStereoPlayout(0)
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetPlayoutDevice' queued for 59958.2ms
+[2025-05-12 04:51:27.389] [36532] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetMicVolume' queued for 59958.2ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetSpeakerVolume' queued for 59958.2ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetH264Enabled' queued for 59958.2ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetAv1Enabled' queued for 59958.2ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetH265Enabled' queued for 59958.2ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetAecDump' queued for 59958.2ms
+[2025-05-12 04:51:27.389] [36532] (engine_audio_transport.cpp:589): EngineAudioTransport::SetSidechainCompression 1
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetSidechainCompression' queued for 59958.2ms
+[2025-05-12 04:51:27.389] [36532] (engine_audio_transport.cpp:600): EngineAudioTransport::ApplySidechainCompressionSettings  threshold: -32.5 ratio: 0.433333
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'ApplySidechainCompressionSettings' queued for 59958.2ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetMaybePreprocessMute' queued for 53856.8ms
+[2025-05-12 04:51:27.389] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetSupportedBandwidthEstimationExperiments' queued for 49747.6ms
+[2025-05-12 04:51:27.389] [36532] (voice_connection.cpp:680): Create connection to 66.22.229.103:50001 with ssrc: 646857
+[2025-05-12 04:51:27.390] [36532] (captured_audio_processor.cpp:164): SetNoiseCancellationOverride: none
+[2025-05-12 04:51:27.390] [36532] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:51:27.390] [36532] (audio_coding.cpp:158): Using software Opus decoder
+[2025-05-12 04:51:27.390] [36532] (audio_coding.cpp:175): Using software Opus encoder
+[2025-05-12 04:51:27.390] [36532] (bitrate_prober.cc:54): Bandwidth probing enabled, set to inactive
+[2025-05-12 04:51:27.390] [36532] (cpu_info.cc:53): Available number of cores: 12
+[2025-05-12 04:51:27.390] [36532] (transport_sequence_number_feedback_generator.cc:69): Maximum interval between transport feedback RTCP messages: 250 ms
+[2025-05-12 04:51:27.390] [36532] (aimd_rate_control.cc:87): Using aimd rate control with back off factor 0.85
+[2025-05-12 04:51:27.390] [36532] (remote_bitrate_estimator_single_stream.cc:53): RemoteBitrateEstimatorSingleStream: Instantiating.
+[2025-05-12 04:51:27.390] [36532] (pacing_controller.cc:125): PacedSender paused.
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:395): SpeakerIsInitialized
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:353): InitSpeaker
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:813): Playing
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:750): InitPlayout
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-12 04:51:27.390] [36532] (session.cpp:42): Creating a new MLS session
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:403): MicrophoneIsInitialized
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:359): InitMicrophone
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:844): Recording
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:763): InitRecording
+[2025-05-12 04:51:27.390] [36532] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-12 04:51:27.390] [36532] (engine.cpp:1077): Audio input device (id: default) initialized in 0 [ms]
+[2025-05-12 04:51:27.390] [36532] (engine.cpp:1096): Audio input device not found: default
+[2025-05-12 04:51:27.390] [36532] (socket_client.cpp:56): TryConnect: 66.22.229.103:50001 with ssrc: 646857
+[2025-05-12 04:51:27.390] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'Create' queued for 49440.5ms
+[2025-05-12 04:51:27.390] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetDesktopSourceStatusCallback' queued for 49440.8ms
+[2025-05-12 04:51:27.390] [36714] (udp_socket.cpp:67): TryConnect: 66.22.229.103:50001 with ssrc: 646857
+[2025-05-12 04:51:27.390] [36532] (connection.cpp:957): Changing audio input mode from: 0 to: 1
+[2025-05-12 04:51:27.390] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49440.2ms
+[2025-05-12 04:51:27.390] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetSelfMute' queued for 49440.5ms
+[2025-05-12 04:51:27.390] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49439.7ms
+[2025-05-12 04:51:27.390] [36714] (udp_socket.cpp:520): Sending echo
+[2025-05-12 04:51:27.390] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetSelfDeafen' queued for 49439.6ms
+[2025-05-12 04:51:27.390] [36532] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:51:27.390] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetEchoCancellation' queued for 49439.5ms
+[2025-05-12 04:51:27.390] [36532] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetNoiseSuppression' queued for 49439.5ms
+[2025-05-12 04:51:27.391] [36532] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetAutomaticGainControl' queued for 49439.5ms
+[2025-05-12 04:51:27.391] [36532] (captured_audio_processor.cpp:157): SetNoiseCancellation: 1
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetNoiseCancellation' queued for 49439.5ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetVoiceFiltersEnabled' queued for 49439.5ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49439.4ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'MuteUser' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'MuteUser' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49438.9ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49438.9ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49438.9ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49438.9ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49438.9ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49438.9ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49438.9ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.1ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.1ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.1ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.1ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.1ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.1ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.1ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.1ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.1ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.2ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.3ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.391] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.4ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.5ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.6ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.7ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.392] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.8ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49439.9ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.1ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.2ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.3ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.393] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.4ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.5ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.6ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.7ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.8ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49440.9ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.394] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.1ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.2ms
+[2025-05-12 04:51:27.395] [36714] (udp_socket.cpp:282): ConnectionAttemptFinished: succeeded, local address: 218.156.203.243:55913
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.2ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.2ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.2ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.2ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.2ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetUserPlayoutVolume' queued for 49441.2ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49440.8ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49440.7ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49440.6ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetTransportOptions' queued for 49440.2ms
+[2025-05-12 04:51:27.395] [36532] (connection.cpp:1131): [default] Outbound audio stats for user: 429174370217230348, audio ssrc: 0, packets sent: 0, packets lost: 0, target bitrate: 0
+[2025-05-12 04:51:27.395] [36532] (connection.cpp:1282): [default] Transport stats for user: 429174370217230348, rtt: -1 [ms], available bitrate: 0 [bps], outbound estimate: 0 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs:  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2025-05-12 04:51:27.395] [36532] (connection.cpp:1314): [default] Memory usage: 524 MB, CPU usage: N/A
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 49398.9ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 47398.3ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 45397.7ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 43392.8ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 41352.2ms
+[2025-05-12 04:51:27.395] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 39350.4ms
+[2025-05-12 04:51:27.395] [36532] (bitrate_prober.cc:54): Bandwidth probing enabled, set to inactive
+[2025-05-12 04:51:27.395] [36532] (transport_sequence_number_feedback_generator.cc:69): Maximum interval between transport feedback RTCP messages: 250 ms
+[2025-05-12 04:51:27.395] [36532] (aimd_rate_control.cc:87): Using aimd rate control with back off factor 0.85
+[2025-05-12 04:51:27.395] [36532] (remote_bitrate_estimator_single_stream.cc:53): RemoteBitrateEstimatorSingleStream: Instantiating.
+[2025-05-12 04:51:27.395] [36532] (pacing_controller.cc:125): PacedSender paused.
+[2025-05-12 04:51:27.395] [36532] (audio_coding_module.cc:196): Created
+[2025-05-12 04:51:27.395] [36532] (audio_send_stream.cc:152): AudioSendStream: 5150
+[2025-05-12 04:51:27.395] [36532] (audio_send_stream.cc:214): AudioSendStream::ConfigureStream: {rtp: {ssrc: 5150, extmap-allow-mixed: false, extensions: [], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 0, format: {name: pcmu, clockrate_hz: 8000, num_channels: 1, parameters: {}}}}
+[2025-05-12 04:51:27.395] [36532] (call.cc:1265): UpdateAggregateNetworkState: aggregate_state change to up
+[2025-05-12 04:51:27.395] [36532] (pacing_controller.cc:132): PacedSender resumed.
+[2025-05-12 04:51:27.395] [36532] (rtp_transport_controller_send.cc:673): Creating fallback congestion controller
+[2025-05-12 04:51:27.396] [36532] (engine.cpp:298): DiscordFieldTrials::Lookup(WebRTC-Bwe-LossBasedBweV2) 0
+[2025-05-12 04:51:27.396] [36532] (alr_experiment.cc:69): Using ALR experiment settings: pacing factor: 1, max pacer queue length: 2875, ALR bandwidth usage percent: 80, ALR start budget level percent: 40, ALR end budget level percent: -60, ALR experiment group ID: 3
+[2025-05-12 04:51:27.396] [36532] (engine.cpp:315): DiscordFieldTrials::Lookup(WebRTC-BweWindowSizeInPackets) 0
+[2025-05-12 04:51:27.396] [36532] (engine.cpp:325): DiscordFieldTrials::Lookup(WebRTC-BWE-TrendlineEstimatorSettings) 3750ms
+[2025-05-12 04:51:27.396] [36532] (trendline_estimator.cc:204): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:1000,min_window_size:50,max_window_duration_ms:3750 and no network state predictor
+[2025-05-12 04:51:27.396] [36532] (engine.cpp:315): DiscordFieldTrials::Lookup(WebRTC-BweWindowSizeInPackets) 0
+[2025-05-12 04:51:27.396] [36532] (engine.cpp:325): DiscordFieldTrials::Lookup(WebRTC-BWE-TrendlineEstimatorSettings) 3750ms
+[2025-05-12 04:51:27.396] [36532] (trendline_estimator.cc:204): Using Trendline filter for delay change estimation with settings sort:false,cap:false,beginning_packets:7,end_packets:7,cap_uncertainty:0,window_size:1000,min_window_size:50,max_window_duration_ms:3750 and no network state predictor
+[2025-05-12 04:51:27.396] [36532] (aimd_rate_control.cc:87): Using aimd rate control with back off factor 0.85
+[2025-05-12 04:51:27.396] [36532] (delay_based_bwe.cc:92): Initialized DelayBasedBwe with separate audio overuse detectionenabled:false,packet_threshold:10,time_threshold:1 s
+[2025-05-12 04:51:27.396] [36532] (delay_based_bwe.cc:307): BWE Setting start bitrate to: 300 kbps
+[2025-05-12 04:51:27.396] [36532] (bitrate_allocator.cc:504): Current BWE 300000
+[2025-05-12 04:51:27.396] [36532] (bitrate_prober.cc:130): Probe cluster (bitrate_bps:min bytes:min packets): (900 kbps:1688:5, Inactive)
+[2025-05-12 04:51:27.396] [36532] (bitrate_prober.cc:130): Probe cluster (bitrate_bps:min bytes:min packets): (1800 kbps:3375:5, Inactive)
+[2025-05-12 04:51:27.396] [36532] (audio_send_stream.cc:339): AudioSendStream::Start: 5150
+[2025-05-12 04:51:27.396] [36532] (audio_device_impl.cc:844): Recording
+[2025-05-12 04:51:27.396] [36532] (audio_device_impl.cc:763): InitRecording
+[2025-05-12 04:51:27.396] [36532] (audio_device_impl.cc:403): MicrophoneIsInitialized
+[2025-05-12 04:51:27.396] [36532] (audio_device_impl.cc:359): InitMicrophone
+[2025-05-12 04:51:27.396] [36532] (audio_device_impl.cc:844): Recording
+[2025-05-12 04:51:27.396] [36532] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-12 04:51:27.396] [36532] (audio_device_impl.cc:763): InitRecording
+[2025-05-12 04:51:27.396] [36532] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-12 04:51:27.396] [36532] (engine.cpp:1077): Audio input device (id: default) initialized in 0 [ms]
+[2025-05-12 04:51:27.396] [36532] (engine.cpp:1096): Audio input device not found: default
+[2025-05-12 04:51:27.396] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetLocalVoiceLevelChangedCallback' queued for 37854.7ms
+[2025-05-12 04:51:27.396] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetLocalVoiceLevelChangedCallback' queued for 37853.7ms
+[2025-05-12 04:51:27.396] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 37350.6ms
+[2025-05-12 04:51:27.396] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 35350ms
+[2025-05-12 04:51:27.396] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'RankRtcRegions' queued for 34048.7ms
+[2025-05-12 04:51:27.396] [36720] (region_latency_tester.cpp:73): Sending 5 latency test pings to region south-korea
+[2025-05-12 04:51:27.396] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 33349.7ms
+[2025-05-12 04:51:27.396] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 31137.6ms
+[2025-05-12 04:51:27.396] [36720] (region_latency_tester.cpp:73): Sending 5 latency test pings to region japan
+[2025-05-12 04:51:27.396] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 29137ms
+[2025-05-12 04:51:27.396] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetLocalVoiceLevelChangedCallback' queued for 27878.3ms
+[2025-05-12 04:51:27.396] [36720] (region_latency_tester.cpp:73): Sending 5 latency test pings to region hongkong
+[2025-05-12 04:51:27.396] [36532] (audio_send_stream.cc:361): AudioSendStream::Stop: 5150
+[2025-05-12 04:51:27.397] [36720] (region_latency_tester.cpp:73): Sending 5 latency test pings to region singapore
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:833): StopRecording
+[2025-05-12 04:51:27.397] [36720] (region_latency_tester.cpp:73): Sending 5 latency test pings to region india
+[2025-05-12 04:51:27.397] [36532] (call.cc:1265): UpdateAggregateNetworkState: aggregate_state change to down
+[2025-05-12 04:51:27.397] [36532] (pacing_controller.cc:125): PacedSender paused.
+[2025-05-12 04:51:27.397] [36532] (control_handler.cc:64): Bitrate estimate state changed, BWE: 300 kbps.
+[2025-05-12 04:51:27.397] [36532] (audio_send_stream.cc:166): ~AudioSendStream: 5150
+[2025-05-12 04:51:27.397] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'SetLocalVoiceLevelChangedCallback' queued for 27874ms
+[2025-05-12 04:51:27.397] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetStats' queued for 27134.8ms
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:1988): obtained codec survey:null
+
+[2025-05-12 04:51:27.397] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetCodecSurvey' queued for 27026.4ms
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:1988): obtained codec survey:null
+
+[2025-05-12 04:51:27.397] [36532] (instrumented_task.cpp:16): Long Queue Time: Task 'GetCodecSurvey' queued for 27025.3ms
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-12 04:51:27.397] [36532] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:844): Recording
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:403): MicrophoneIsInitialized
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:359): InitMicrophone
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:844): Recording
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-12 04:51:27.397] [36512] JS console: [RTCConnection(1234126544407105617, default)] Error: codec survey is not available
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:763): InitRecording
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:1077): Audio input device (id: default) initialized in 0 [ms]
+[2025-05-12 04:51:27.397] [36532] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:580): SetStereoPlayout(0)
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:395): SpeakerIsInitialized
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:353): InitSpeaker
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:813): Playing
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:750): InitPlayout
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:230): * audioInput:
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:233): - default ()
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:235): * audioOutput:
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:238): - default ()
+[2025-05-12 04:51:27.397] [36512] JS console: [RTCConnection(1234126544407105617, default)] Error: codec survey is not available
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:844): Recording
+[2025-05-12 04:51:27.397] [36532] (engine.cpp:705): Stopping audio output device
+[2025-05-12 04:51:27.397] [36532] (audio_device_impl.cc:813): Playing
+[2025-05-12 04:51:27.397] [36714] (udp_socket.cpp:392): Disconnect
+[2025-05-12 04:51:27.398] [36532] (socket_client.cpp:319): OnConnectionComplete, succeeded: 1
+[2025-05-12 04:51:27.402] [36532] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-12 04:51:27.402] [36532] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-12 04:51:27.402] [36532] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-12 04:51:27.402] [36532] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-12 04:51:27.402] [36532] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-12 04:51:27.402] [36532] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-12 04:51:27.403] [36532] (audio_device_impl.cc:534): SetStereoRecording(0)
+[2025-05-12 04:51:27.403] [36532] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-12 04:51:27.403] [36532] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-12 04:51:27.403] [36532] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-12 04:51:27.403] [36532] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-12 04:51:27.403] [36532] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-12 04:51:27.403] [36532] (audio_device_impl.cc:580): SetStereoPlayout(0)
+[2025-05-12 04:51:27.662] [36720] (region_latency_tester.cpp:288): Average RTT for region south-korea is 4
+[2025-05-12 04:51:27.662] [36720] (region_latency_tester.cpp:288): Average RTT for region japan is 33.75
+[2025-05-12 04:51:27.662] [36720] (region_latency_tester.cpp:288): Average RTT for region hongkong is 42.25
+[2025-05-12 04:51:27.662] [36720] (region_latency_tester.cpp:288): Average RTT for region singapore is 198.75
+[2025-05-12 04:51:27.662] [36720] (region_latency_tester.cpp:288): Average RTT for region india is 260.5

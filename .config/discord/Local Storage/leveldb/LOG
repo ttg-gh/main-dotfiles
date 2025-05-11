@@ -1,0 +1,17 @@
+2025/05/12-04:58:01.683 9310 Reusing MANIFEST /home/ttg/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/05/12-04:58:01.688 9310 Recovering log #22
+2025/05/12-04:58:01.698 9310 Level-0 table #25: started
+2025/05/12-04:58:01.727 9310 Level-0 table #25: 1090378 bytes OK
+2025/05/12-04:58:01.734 9310 Delete type=0 #22
+2025/05/12-04:58:01.736 9311 Compacting 4@0 + 1@1 files
+2025/05/12-04:58:01.765 9311 Generated table #27@0: 30 keys, 1106656 bytes
+2025/05/12-04:58:01.765 9311 Compacted 4@0 + 1@1 files => 1106656 bytes
+2025/05/12-04:58:01.773 9311 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/12-04:58:01.774 9311 Delete type=2 #17
+2025/05/12-04:58:01.774 9311 Delete type=2 #19
+2025/05/12-04:58:01.774 9311 Delete type=2 #21
+2025/05/12-04:58:01.774 9311 Delete type=2 #23
+2025/05/12-04:58:01.774 9311 Delete type=2 #25
+2025/05/12-05:00:02.468 9311 Level-0 table #29: started
+2025/05/12-05:00:02.486 9311 Level-0 table #29: 73697 bytes OK
+2025/05/12-05:00:02.492 9311 Delete type=0 #26
